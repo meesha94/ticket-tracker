@@ -1,4 +1,15 @@
 .counter {
     border: 2px solid black;
-    
+    width: 180px;
+    text-align: center;
+    margin-left: 20px;
+
+   
+}
+.counter__buttons-plus {
+    margin-right: 50px;
+}
+
+.counter__count {
+    font-size: 20px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Ticketcard.scss"
 const Ticketcard = () => {
   return (
     <div className="information">

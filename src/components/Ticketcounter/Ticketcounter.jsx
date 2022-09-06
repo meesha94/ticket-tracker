@@ -6,9 +6,9 @@ const Ticketcounter = () => {
     <div className='counter'>
         <h1 className='counter__title'>Counter</h1>
         <p className='counter__count'>0</p>
-        <section className="buttons">
-        <button className='plus'>+</button>
-        <button className='minus'>-</button>
+        <section className="counter__buttons">
+        <button className='counter__buttons-plus'>+</button>
+        <button className='counter__buttons-minus'>-</button>
         </section>
     </div>
   )
