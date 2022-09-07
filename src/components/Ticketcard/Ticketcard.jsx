@@ -10,8 +10,8 @@ const {name, role} = props;
   return (
     <>
     <div className="information">
-        <h1 className='name' >Name {name}</h1>
-        <h2 className='role' >Role {role}</h2>
+        <h1 className='name' >{name}</h1>
+        <h2 className='role' >{role}</h2>
     </div>
     <Ticketcounter/>
     </>
