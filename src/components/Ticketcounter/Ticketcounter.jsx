@@ -1,17 +1,36 @@
-import React from 'react';
+import React from "react";
+import { useState } from "react";
 import "./Ticketcounter.scss";
 
-const Ticketcounter = () => {
-  return (
-    <div className='counter'>
-        <h1 className='counter__title'>Counter</h1>
-        <p className='counter__count'>0</p>
-        <section className="counter__buttons">
-        <button className='counter__buttons-plus'>+</button>
-        <button className='counter__buttons-minus'>-</button>
-        </section>
-    </div>
-  )
-}
+const counterDisplay = document.querySelector(".counter__count");
 
-export default Ticketcounter
+const Ticketcounter = () => {
+  const [counter, setCounter] = useState(0);
+
+  const handleIncrement = () => {
+    setCounter((count) => count + 1);
+  };
+  console.log(handleIncrement);
+
+  const handleDecrement = () => {
+    setCounter(counter - 1);
+  };
+
+  return (
+    <div className="counter">
+      <h3 className="counter__title">Counter</h3>
+      <p className="counter__count">{counter}</p>
+      <section className="counter__buttons">
+        <button className="counter__buttons-plus" onClick={handleIncrement}>
+          +
+        </button>
+
+        <button className="counter__buttons-minus" onClick={handleDecrement}>
+          -
+        </button>
+      </section>
+    </div>
+  );
+};
+
+export default Ticketcounter;
