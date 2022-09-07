@@ -2,18 +2,15 @@ import React from "react";
 import { useState } from "react";
 import "./Ticketcounter.scss";
 
-const counterDisplay = document.querySelector(".counter__count");
-
 const Ticketcounter = () => {
   const [counter, setCounter] = useState(0);
 
   const handleIncrement = () => {
-    setCounter((count) => count + 1);
+    setCounter((count) => count ++);
   };
-  console.log(handleIncrement);
 
   const handleDecrement = () => {
-    setCounter(counter - 1);
+    setCounter(counter --);
   };
 
   return (
