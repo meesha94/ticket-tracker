@@ -7,7 +7,7 @@ const Main = () => {
 
     const ticketCardJSX = team.map((member)=>{
         return (
-            <div key={member.id}>
+            <div className = "member"key={member.id}>
             <Ticketcard name={member.name} role ={member.role}/>
             </div>
         )
