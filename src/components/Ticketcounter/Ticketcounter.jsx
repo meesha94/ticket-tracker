@@ -6,11 +6,13 @@ const Ticketcounter = () => {
   const [counter, setCounter] = useState(0);
 
   const handleIncrement = () => {
-    setCounter((count) => count ++);
+    setCounter((count) => count + 1);
   };
 
   const handleDecrement = () => {
-    setCounter(counter --);
+    if (counter > 0){
+    setCounter((count) => count - 1);
+    }
   };
 
   return (
