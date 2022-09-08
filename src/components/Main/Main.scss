@@ -1,16 +1,17 @@
-.member {
+.member__card {
     margin-top: 30px;
     padding-bottom: 20px;
     padding-left: 10px;
     border: 2px solid black;
     width: 230px;
     height: 450px;
-    background: rgb(185,4,78);
-background: linear-gradient(90deg, rgba(185,4,78,1) 0%, rgba(153,4,94,0.773546918767507) 36%, rgba(110,3,134,1) 100%);
+    background: rgb(179,158,147);
+background: linear-gradient(90deg, rgba(179,158,147,1) 1%, rgba(204,197,184,0.8855917366946778) 73%);
+    
   
 }
 
-.main {
+.member__cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

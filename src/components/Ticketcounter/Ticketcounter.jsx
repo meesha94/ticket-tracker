@@ -10,15 +10,15 @@ const Ticketcounter = () => {
   };
 
   const handleDecrement = () => {
-    if (counter > 0){
-    setCounter((count) => count - 1);
+    if (counter > 0) {
+      setCounter((count) => count - 1);
     }
   };
 
   return (
     <div className="counter">
       <h3 className="counter__title">Counter</h3>
-      <p className="counter__count">{counter}</p>
+      <p className="counter__display">{counter}</p>
       <section className="counter__buttons">
         <button className="counter__buttons-plus" onClick={handleIncrement}>
           +

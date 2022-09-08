@@ -1,12 +1,13 @@
-import './App.scss';
-import Heading from './components/Heading/Heading';
-import Main from './components/Main/Main';
+import "./App.scss";
+import Heading from "./components/Heading/Heading";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
     <div className="app">
-      <Heading/>
+      <Heading />
       <Main />
+      
     </div>
   );
 }
