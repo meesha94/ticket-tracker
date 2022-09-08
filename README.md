@@ -1,3 +1,9 @@
+Ticket Tracker
+Displays a group of users, each has a card with their name and role and a counter, which can be updated to increase or decrease ticket numbers. It is to track the amount of tickets each person has. 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
